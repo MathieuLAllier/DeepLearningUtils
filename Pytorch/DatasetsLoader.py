@@ -1,7 +1,6 @@
 import numpy as np
 import pandas as pd
 from torch.utils.data.dataset import Dataset
-from auto_features.pandas_automation import get_category_size
 
 
 class StructuredDataset(Dataset):
